@@ -1,8 +1,8 @@
 <template>
   <div class="navbar-container">
     <nav class="navbar navbar-expand-sm">
-      <a class="navbar-brand" href="/"
-        >rzufil:~$<span class="blink">&nbsp;</span></a
+      <router-link class="navbar-brand" to="/"
+        >rzufil:~$<span class="blink">&nbsp;</span></router-link
       >
       <button
         class="navbar-toggler"
@@ -16,13 +16,17 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse" :class="{'collapse': show}" id="navbarSupportedContent">
+      <div
+        class="navbar-collapse"
+        :class="{ collapse: show }"
+        id="navbarSupportedContent"
+      >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/resume">Resume</a>
+            <router-link class="nav-link" to="/resume">Resume</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <router-link class="nav-link" to="/contact">Contact</router-link>
           </li>
         </ul>
       </div>
@@ -39,7 +43,7 @@ export default {
   },
   methods: {
     toggleNavbar() {
-      this.show = !this.show
+      this.show = !this.show;
     }
   }
 }

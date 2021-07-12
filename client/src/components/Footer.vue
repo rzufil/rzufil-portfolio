@@ -8,7 +8,7 @@
               width="50"
               height="50"
               alt="github"
-              src="../assets/images/github-128.png"
+              src="../assets/images/github-128.webp"
             />
           </a>
         </div>
@@ -21,7 +21,7 @@
               width="50"
               height="50"
               alt="linkedin"
-              src="../assets/images/linkedin-128.png"
+              src="../assets/images/linkedin-128.webp"
             />
           </a>
         </div>
@@ -31,7 +31,7 @@
               width="50"
               height="50"
               alt="instagram"
-              src="../assets/images/instagram-128.png"
+              src="../assets/images/instagram-128.webp"
             />
           </a>
         </div>
