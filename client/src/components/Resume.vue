@@ -159,6 +159,7 @@ ul {
   margin: 15px 15px 0 0;
   padding: 10px;
   text-align: justify;
+  cursor: default;
 }
 .skills li:hover {
   background: #909590;
