@@ -6,7 +6,7 @@
         <img
           alt="rzufil image"
           class="rounded-circle"
-          src="../assets/images/rzufil.jpg"
+          src="../assets/images/rzufil.webp"
         />
         <h2><strong>Rafael Zufi Leite</strong></h2>
         <p>Software Developer</p>

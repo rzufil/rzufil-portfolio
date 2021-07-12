@@ -36,9 +36,9 @@
           </a>
         </div>
         <div class="col-6 col-md footer-item">
-          <a class="navbar-brand" href="/">
-            rzufil:~$<span class="blink">&nbsp;</span>
-          </a>
+          <router-link class="navbar-brand" to="/"
+            >rzufil:~$<span class="blink">&nbsp;</span></router-link
+          >
         </div>
       </div>
     </footer>

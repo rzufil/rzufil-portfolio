@@ -12,7 +12,7 @@
           </p>
           <p class="not-found-message">
             Try going back to the previous page or visit our
-            <a href="/">homepage</a>.
+            <router-link to="/">homepage</router-link>.
           </p>
         </div>
       </div>
@@ -26,14 +26,14 @@
   text-align: left;
 }
 .not-found-text {
-    font-weight: bold;
-    font-size: 100px;
+  font-weight: bold;
+  font-size: 100px;
 }
 .not-found-left {
-    padding: 20px;
+  padding: 20px;
 }
 .not-found-right {
-    padding: 40px;
+  padding: 40px;
 }
 .not-found-container a {
   text-decoration: none;
