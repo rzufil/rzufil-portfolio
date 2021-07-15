@@ -36,6 +36,7 @@
 
 <script>
 export default {
+  name: "Header",
   data() {
     return {
       show: true

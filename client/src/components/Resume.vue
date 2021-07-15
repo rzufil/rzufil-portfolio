@@ -82,6 +82,7 @@
 
 <script>
 export default {
+  name: "Resume",
   data() {
     return {
       experiences: {},

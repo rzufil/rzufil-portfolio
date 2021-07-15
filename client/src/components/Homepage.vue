@@ -192,7 +192,7 @@
                   recklessly.
                 </p>
                 <a
-                  href="https://github.com/rzufil/RecklessDriving"\
+                  href="https://github.com/rzufil/RecklessDriving"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

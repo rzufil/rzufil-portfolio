@@ -11,6 +11,15 @@ import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 export default {
   name: "App",
+  metaInfo() {
+    return {
+        title: "Rafael Zufi Leite Portfolio Site",
+        meta: [
+          { name: "description", content: "Rafael Zufi Leite portfolio site. It contains projects, resume, and contact information."},
+          { name: "robots", content: "index,follow" }
+        ]
+    }
+  },
   components: {
     Header,
     Footer,

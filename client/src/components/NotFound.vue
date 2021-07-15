@@ -20,6 +20,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "NotFound",
+};
+</script>
+
 <style scoped>
 .not-found-container {
   padding: 100px 0 50px 0;
