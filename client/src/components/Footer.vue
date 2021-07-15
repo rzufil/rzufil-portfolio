@@ -3,7 +3,11 @@
     <footer class="container-fluid py-5">
       <div class="row">
         <div class="col-6 col-md footer-item">
-          <a href="https://github.com/rzufil" target="_blank">
+          <a
+            href="https://github.com/rzufil"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               width="50"
               height="50"
@@ -15,6 +19,7 @@
         <div class="col-6 col-md footer-item">
           <a
             href="https://www.linkedin.com/in/rafael-zufi-leite/"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -26,7 +31,11 @@
           </a>
         </div>
         <div class="col-6 col-md footer-item">
-          <a href="https://www.instagram.com/rafaelzufil/" target="_blank">
+          <a
+            href="https://www.instagram.com/rafaelzufil/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               width="50"
               height="50"

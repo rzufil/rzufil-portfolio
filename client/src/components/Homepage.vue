@@ -191,7 +191,11 @@
                   JavaFX racing game. Try not to hit any cars while driving
                   recklessly.
                 </p>
-                <a href="https://github.com/rzufil/RecklessDriving" target="_blank">
+                <a
+                  href="https://github.com/rzufil/RecklessDriving"\
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <button type="button" class="btn btn-outline-secondary">
                     Repository
                   </button>
@@ -209,7 +213,11 @@
               <hr />
               <div class="card-body">
                 <p>Analyzing "Airplane Crashes Since 1908" dataset with R.</p>
-                <a href="https://github.com/rzufil/COSC4931_DataScience" target="_blank">
+                <a
+                  href="https://github.com/rzufil/COSC4931_DataScience"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <button type="button" class="btn btn-outline-secondary">
                     Repository
                   </button>
@@ -227,7 +235,11 @@
               <hr />
               <div class="card-body">
                 <p>Android app that solves simple math functions.</p>
-                <a href="https://github.com/rzufil/MathSolver1.0" target="_blank">
+                <a
+                  href="https://github.com/rzufil/MathSolver1.0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <button type="button" class="btn btn-outline-secondary">
                     Repository
                   </button>
