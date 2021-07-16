@@ -14,7 +14,13 @@
       <div class="resume-body">
         <section class="experience">
           <h4><strong>Experience</strong></h4>
+          <bullet-list-loader
+            v-if="!experiences"
+            :animate="true"
+            :speed="3"
+          ></bullet-list-loader>
           <div
+            v-else
             class="employment"
             v-for="(experience, index) in experiences"
             :key="index"
@@ -40,7 +46,13 @@
         </section>
         <section class="education">
           <h4><strong>Education</strong></h4>
+          <bullet-list-loader
+            v-if="!degrees"
+            :animate="true"
+            :speed="3"
+          ></bullet-list-loader>
           <div
+            v-else
             class="course"
             v-for="(degree, index) in degrees"
             :key="index"
@@ -61,7 +73,13 @@
         <section class="technical-skills">
           <h4><strong>Technical Skills</strong></h4>
           <ul class="skills">
+            <bullet-list-loader
+              v-if="!skills"
+              :animate="true"
+              :speed="3"
+            ></bullet-list-loader>
             <li
+              v-else
               v-for="(skill, index) in skills"
               :key="index"
             >
@@ -72,7 +90,13 @@
         <section class="languages">
           <h4><strong>Languages</strong></h4>
           <ul class="skills">
+            <bullet-list-loader
+              v-if="!languages"
+              :animate="true"
+              :speed="3"
+            ></bullet-list-loader>
             <li
+              v-else
               v-for="(language, index) in languages"
               :key="index"
             >
@@ -86,14 +110,19 @@
 </template>
 
 <script>
+import { BulletListLoader } from 'vue-content-loader';
+
 export default {
   name: "Resume",
+  components: {
+    BulletListLoader,
+  },
   data() {
     return {
-      experiences: {},
-      degrees: {},
-      skills: {},
-      languages: {},
+      experiences: null,
+      degrees: null,
+      skills: null,
+      languages: null,
     };
   },
   created() {
