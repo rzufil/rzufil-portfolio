@@ -6,8 +6,8 @@
         <h6><strong>Software Developer</strong></h6>
       </div>
       <div class="resume-address">
-        <p>Rua Paranaguá 410</p>
-        <p>Londrina, PR, BR, 86020-030</p>
+        <p>Rua Ulrico Zuinglio 320</p>
+        <p>Londrina, PR, BR, 86055-620</p>
         <p><a href="mailto:rzufil@gmail.com">rzufil@gmail.com</a></p>
         <p><a href="tel:5543991800401">+55 (43) 99180-0401</a></p>
       </div>
