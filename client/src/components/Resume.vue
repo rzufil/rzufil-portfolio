@@ -28,9 +28,14 @@
               {{ experience.start_date | formatDate }} -
               {{ experience.end_date | formatDate }}
             </p>
-            <p class="employment-description">
-              {{ experience.description }}
-            </p>
+            <ul class="employment-description">
+              <li
+                v-for="(description, index) in experience.description"
+                :key="index"
+              >
+                {{ description }}
+              </li>
+            </ul>
           </div>
         </section>
         <section class="education">
@@ -145,7 +150,7 @@ section {
 .course-dates {
   font-size: .9rem;
 }
-ul {
+.skills {
   list-style-type: none;
   margin-top: -10px;
   max-width: 75%;

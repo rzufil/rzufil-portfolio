@@ -6,7 +6,7 @@ const ExperienceSchema = mongoose.Schema({
     role: String,
     start_date: Date,
     end_date: Date,
-    description: String,
+    description: Array,
     stack: Array,
     current_job: Boolean
 }, {
