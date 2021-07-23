@@ -43,6 +43,7 @@
             class="form-control"
             name="message"
             placeholder="Message"
+            rows="6"
           ></textarea>
         </div>
         <input
