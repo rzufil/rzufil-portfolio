@@ -45,7 +45,7 @@
           </a>
         </div>
         <div class="col-6 col-md footer-item">
-          <router-link class="navbar-brand" to="/"
+          <router-link class="navbar-brand" to="/" @click.native="scrollToTop()"
             >rzufil:~$<span class="blink">&nbsp;</span></router-link
           >
         </div>
@@ -65,6 +65,11 @@ export default {
       year: new Date().getFullYear(),
     };
   },
+  methods: {
+    scrollToTop() {
+      window.scroll({top: 0, left: 0, behavior: 'smooth'});
+    }
+  }
 };
 </script>
 

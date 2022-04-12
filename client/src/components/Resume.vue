@@ -134,7 +134,7 @@ export default {
       .then((data) => (this.degrees = data));
     fetch("api/skills")
       .then((response) => response.json())
-      .then((data) => (this.skills = data));
+      .then((data) => (this.skills = data.sort((a, b) => a.level - b.level).reverse()));
     fetch("api/languages")
       .then((response) => response.json())
       .then((data) => (this.languages = data));

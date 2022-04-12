@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-container">
     <nav class="navbar navbar-expand-sm">
-      <router-link class="navbar-brand" to="/"
+      <router-link class="navbar-brand" to="/" @click.native="scrollToTop()"
         >rzufil:~$<span class="blink">&nbsp;</span></router-link
       >
       <button
@@ -23,10 +23,10 @@
       >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/resume">Resume</router-link>
+            <router-link class="nav-link" to="/resume" @click.native="scrollToTop()">Resume</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/contact">Contact</router-link>
+            <router-link class="nav-link" to="/contact" @click.native="scrollToTop()">Contact</router-link>
           </li>
         </ul>
       </div>
@@ -45,6 +45,9 @@ export default {
   methods: {
     toggleNavbar() {
       this.show = !this.show;
+    },
+    scrollToTop() {
+      window.scroll({top: 0, left: 0, behavior: 'smooth'});
     }
   }
 }

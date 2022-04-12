@@ -12,7 +12,7 @@
           </p>
           <p class="not-found-message">
             Try going back to the previous page or visit our
-            <router-link to="/">homepage</router-link>.
+            <router-link to="/" @click.native="scrollToTop()">homepage</router-link>.
           </p>
         </div>
       </div>
@@ -23,6 +23,11 @@
 <script>
 export default {
   name: "NotFound",
+  methods: {
+    scrollToTop() {
+      window.scroll({top: 0, left: 0, behavior: 'smooth'});
+    }
+  }
 };
 </script>
 

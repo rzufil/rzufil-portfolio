@@ -35,7 +35,7 @@
               <span class="fill"></span>
               <span class="fill"></span>
               <span class="fill"></span>
-              <span></span>
+              <span class="half-fill"></span>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
               <span class="fill"></span>
               <span class="fill"></span>
               <span class="fill"></span>
-              <span></span>
+              <span class="half-fill"></span>
               <span></span>
             </div>
           </div>
@@ -123,6 +123,28 @@
               <span class="fill"></span>
               <span class="fill"></span>
               <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 technology_rating">
+            Solidity
+            <div class="rating_scale">
+              <span class="fill"></span>
+              <span class="fill"></span>
+              <span class="fill"></span>
+              <span class="half-fill"></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="col-md-6 technology_rating">
+            React
+            <div class="rating_scale">
+              <span class="fill"></span>
+              <span class="fill"></span>
+              <span class="fill"></span>
+              <span class="half-fill"></span>
               <span></span>
             </div>
           </div>
@@ -178,21 +200,17 @@
     <section class="bottom-section">
       <div class="container">
         <h2><strong>Projects</strong></h2>
-        <p>These are supposed to be sample projects</p>
         <div class="row">
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
-                <h2>RecklessDriving</h2>
+                <h2>Portfolio Site</h2>
               </div>
               <hr />
               <div class="card-body">
-                <p>
-                  JavaFX racing game. Try not to hit any cars while driving
-                  recklessly.
-                </p>
+                <p>This portfolio site created using the MEVN stack.</p>
                 <a
-                  href="https://github.com/rzufil/RecklessDriving"
+                  href="https://github.com/rzufil/rzufil-portfolio"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -208,13 +226,84 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
-                <h2>Airplane Crashes</h2>
+                <h2>Laravel Chatbot</h2>
               </div>
               <hr />
               <div class="card-body">
-                <p>Analyzing "Airplane Crashes Since 1908" dataset with R.</p>
+                <p>A Laravel chatbot that handles user signup and currency conversion.</p>
                 <a
-                  href="https://github.com/rzufil/COSC4931_DataScience"
+                  href="https://github.com/rzufil/chatbot"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-outline-secondary">
+                    Repository
+                  </button>
+                </a>
+              </div>
+            </div>
+            <br />
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-head">
+                <h2>Solidity Raffle</h2>
+              </div>
+              <hr />
+              <div class="card-body">
+                <p>A raffle game using Solidity for the smart contract and React for the front-end.</p>
+                <a
+                  href="https://github.com/rzufil/solidity-raffle"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-outline-secondary">
+                    Repository
+                  </button>
+                </a>
+              </div>
+            </div>
+            <br />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-head">
+                <h2>Magento Log Events</h2>
+              </div>
+              <hr />
+              <div class="card-body">
+                <p>A Magento 2 module that logs all events dispatched by Magento.</p>
+                <a
+                  href="https://github.com/rzufil/LogEvents"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-outline-secondary">
+                    Repository
+                  </button>
+                </a>
+              </div>
+            </div>
+            <br />
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-head">
+                <h2>RecklessDriving</h2>
+              </div>
+              <hr />
+              <div class="card-body">
+                <p>
+                  JavaFX racing game. Try not to hit any cars while driving
+                  recklessly.
+                </p>
+                <a
+                  href="https://github.com/rzufil/RecklessDriving"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
