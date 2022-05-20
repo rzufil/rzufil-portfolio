@@ -209,15 +209,19 @@
               <hr />
               <div class="card-body">
                 <p>This portfolio site created using the MEVN stack.</p>
-                <a
-                  href="https://github.com/rzufil/rzufil-portfolio"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-secondary">
-                    Repository
-                  </button>
-                </a>
+              </div>
+              <div class="card-footer">
+                <div class="footer-link">
+                  <a
+                    href="https://github.com/rzufil/rzufil-portfolio"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-secondary">
+                      Repository
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <br />
@@ -226,20 +230,35 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
-                <h2>Laravel Chatbot</h2>
+                <h2>Bills Reminder</h2>
               </div>
               <hr />
               <div class="card-body">
-                <p>A Laravel chatbot that handles user signup and currency conversion.</p>
-                <a
-                  href="https://github.com/rzufil/chatbot"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-secondary">
-                    Repository
-                  </button>
-                </a>
+                <p>A MERN web app to remind you to pay your bills.</p>
+              </div>
+              <div class="card-footer">
+                <div class="footer-link">
+                  <a
+                    href="https://github.com/rzufil/bills-reminder"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-secondary">
+                      Repository
+                    </button>
+                  </a>
+                </div>
+                <div class="footer-link">
+                  <a
+                    href="https://www.bills-reminder.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-secondary">
+                      Site
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <br />
@@ -248,20 +267,24 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
-                <h2>Solidity Raffle</h2>
+                <h2>Solidity Images</h2>
               </div>
               <hr />
               <div class="card-body">
-                <p>A raffle game using Solidity for the smart contract and React for the front-end.</p>
-                <a
-                  href="https://github.com/rzufil/solidity-raffle"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-secondary">
-                    Repository
-                  </button>
-                </a>
+                <p>Image showcase app using Solidity for the smart contract and React for the front-end.</p>
+              </div>
+              <div class="card-footer">
+                <div class="footer-link">
+                  <a
+                    href="https://github.com/rzufil/solidity-images"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-secondary">
+                      Repository
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <br />
@@ -272,20 +295,24 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
-                <h2>Magento Log Events</h2>
+                <h2>Laravel Chatbot</h2>
               </div>
               <hr />
               <div class="card-body">
-                <p>A Magento 2 module that logs all events dispatched by Magento.</p>
-                <a
-                  href="https://github.com/rzufil/LogEvents"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-secondary">
-                    Repository
-                  </button>
-                </a>
+                <p>A Laravel chatbot that handles user signup and currency conversion.</p>
+              </div>
+              <div class="card-footer">
+                <div class="footer-link">
+                  <a
+                    href="https://github.com/rzufil/chatbot"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-secondary">
+                      Repository
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <br />
@@ -302,15 +329,19 @@
                   JavaFX racing game. Try not to hit any cars while driving
                   recklessly.
                 </p>
-                <a
-                  href="https://github.com/rzufil/RecklessDriving"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-secondary">
-                    Repository
-                  </button>
-                </a>
+              </div>
+              <div class="card-footer">
+                <div class="footer-link">
+                  <a
+                    href="https://github.com/rzufil/RecklessDriving"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-secondary">
+                      Repository
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <br />
@@ -324,15 +355,19 @@
               <hr />
               <div class="card-body">
                 <p>Android app that solves simple math functions.</p>
-                <a
-                  href="https://github.com/rzufil/MathSolver1.0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-secondary">
-                    Repository
-                  </button>
-                </a>
+              </div>
+              <div class="card-footer">
+                <div class="footer-link">
+                  <a
+                    href="https://github.com/rzufil/MathSolver1.0"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-secondary">
+                      Repository
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -370,6 +405,10 @@ export default {
 }
 .card {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+}
+.footer-link {
+  display: inline-flex;
+  padding: 5px;
 }
 .top-section-card img {
   width: 150px;
