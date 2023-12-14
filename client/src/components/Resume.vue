@@ -128,7 +128,7 @@ export default {
   created() {
     fetch("api/experiences")
       .then((response) => response.json())
-      .then((data) => (this.experiences = data));
+      .then((data) => (this.experiences = data.sort((a, b) => new Date(a.start_date) - new Date(b.start_date)).reverse()));
     fetch("api/degrees")
       .then((response) => response.json())
       .then((data) => (this.degrees = data));

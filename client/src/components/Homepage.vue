@@ -9,7 +9,7 @@
           src="../assets/images/rzufil.webp"
         />
         <h2><strong>Rafael Zufi Leite</strong></h2>
-        <p>Software Developer</p>
+        <p>Software Engineer</p>
       </div>
     </section>
 
